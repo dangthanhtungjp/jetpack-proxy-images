@@ -4,14 +4,9 @@ const rules = {
     pathTransform: (path, prefix) => '/avatar' + path.replace(prefix, ''),
     service: 'Gravatar'
   },
-  '/comment': {
-    targetHost: 'i0.wp.com',
-    pathTransform: (path, prefix) => '/comment.bibica.net/static/images' + path.replace(prefix, ''),
-    service: 'Artalk & Jetpack'
-  },
   '/': {
     targetHost: 'i0.wp.com',
-    pathTransform: (path) => '/bibica.net/wp-content/uploads' + path,
+    pathTransform: (path) => '/nhaminhoi.com/wp-content/uploads' + path,
     service: 'Jetpack'
   }
 };
